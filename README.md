@@ -16,7 +16,7 @@ Create a secret named mongo, that will contain the mongoDB_connct secret.
 kubectl create secret mongo --from-literal=mongo=${SECRET_VALUE}
 ```
 
-Deploy the deployment and load balance yaml files.
+Deploy the deployment and load balance yaml files.Test
 
 ```docker
 kubectl apply -f deployment.yml
